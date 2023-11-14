@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+  background-image: url(../img/stars.png);
+  background-size:100vw 100vh;
+  background-position: left top;
+}
+main {
+  height: 100%;
+}

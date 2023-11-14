@@ -1,0 +1,27 @@
+@import "./colors.css";
+body{
+  height: 100vh;
+  background-image: url(../img/village.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: left top;
+}
+article{
+  margin-top: 40vh;
+  z-index: 1;
+}
+.to-campfire{
+  width: 80vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.to-observatory{
+  width: 28vw;
+  height: 34.5vh;
+  position: absolute;
+  top: 8vh;
+  left: 19.8vw;
+  z-index: 0;
+}

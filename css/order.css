@@ -1,0 +1,49 @@
+@import "../css/colors.css";
+body {
+  background-image: url(../img/stars.png);
+  background-size: 100vw 100vh;
+  background-position: left top;
+}
+form img {
+  display: block;
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+button {
+  background-color: var(--important-color);
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px;
+}
+button:active {
+  box-shadow: -2px -2px 4px;
+}
+article{
+  margin-left: 0;
+  width: 80vw;
+  margin-top: 0.5rem;
+}
+article + article{
+  position: relative;
+  top: 20vh;
+}
+
+@media screen and (min-width: 768px) {
+  article{
+    margin: 0 auto 0 auto;
+    width: 85vw;
+  }
+  form img{
+    width: 8vw;
+  }
+  article + article{
+    position: static;
+    height: 32vh;
+    width: 45vw;
+  }
+}

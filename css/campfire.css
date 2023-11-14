@@ -1,0 +1,55 @@
+@import "./colors.css";
+body{
+  height: 100vh;
+  background-image: url(../img/campfire.png);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: left top;
+}
+article{
+  width: 50vw;
+  position: absolute;
+  left: 25vw;
+  top: 10vh;
+}
+.text-container{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fire{
+  position: absolute;
+  height: 36.9vh;
+  width: 22vw;
+  top: 36.1vh;
+  left: 49.3vw;
+}
+.slate{
+  position: absolute;
+  height: 30vh;
+  width: 17vw;
+  top: 30.5vh;
+  left: 69.6vw;
+}
+.bed{
+  position: absolute;
+  height: 26vh;
+  width: 30.3vw;
+  top: 56.2vh;
+  left: 2.4vw;
+}
+.to-village{
+  position: absolute;
+  height: 47vh;
+  width: 33.4vw;
+  top: 0;
+  bottom: 0;
+}
+.to-elevator{
+  height: 80vh;
+  width: 10vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

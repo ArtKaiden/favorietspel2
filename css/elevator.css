@@ -1,0 +1,39 @@
+@import "./colors.css";
+body{
+  height: 100vh;
+  background-image: url(../img/elevator.png);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: left top;
+}
+.to-campfire{
+  width: 80vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.elevator-button{
+    position: absolute;
+    height: 14vh;
+    width: 7.1vw;
+    top: 53.75vh;
+    left: 41.3vw;
+}
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+article{
+  margin-top: 15vh;
+  width: 30vw;
+}
+input{
+  border-radius: 20px;
+  background-color: gray;
+
+}
+button{
+  border-radius: 20px;
+  background-color: dimgray;
+}
